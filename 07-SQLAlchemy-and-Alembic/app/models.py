@@ -1,5 +1,5 @@
 #1.✅ Build out Model
-# Import from sqlalchemy: PrimaryKeyConstraint, Column, String, Integer
+# Import from sqlalchemy: Column, String, Integer
 # Import from sqlalchemy.ext.declarative, declarative_base  
 
 #1.a ✅ Initialize declarative_base and save it to a variable called Base
@@ -8,7 +8,7 @@
 #1.b ✅ Create a class Pet that inherits from Base
 
     # Set the "__tablename__" to 'pets
-    # Add table args for a primary key constraint based off the id
+    
 
     #Create the following columns
     # id -> type integer
